@@ -192,19 +192,19 @@ read_shcs_iris <- function(shcs_dir = get_shcs_dir(), lazy = F,...){
 #' @rdname read_shcs
 read_shcs_lab <- function(shcs_dir = get_shcs_dir(), lazy = F,...){
   cn <- c("ID", "LABDATE", "CD4DATE", "LEU", "HEM", "PLA", "LYM", "LYMP",
-       "CD3", "CD3P", "CD4", "CD4P", "CD8", "CD8P", "AGP24_Q", "AGP24",
-       "ICDP24_Q", "ICDP24", "RNA", "WEIGHT", "CELLS_TAKEN", "SERUM_TAKEN",
-       "PLASMA_TAKEN", "DNA_TAKEN", "SAMPLE_DAY", "SAMPLE_TIME", "TBC",
-       "TBC_TSR", "TBC_TESTDATE", "SYPH_Q", "VDRL_Q", "VDRL", "SYPH_DATE",
-       "CMV", "CMV_DATE", "TOXO", "TOXO_DATE", "PHYSICIAN", "STUDY_NURSE",
-       "CENTER", "SOURCE", "STATUS_REC", "FUP_LAB", "COMMENTS", "LAB_A",
-       "RNA_LIMIT", "RNA_METHOD", "AGHBS", "ANTIHBS", "ANTIHBC", "HEB_DATE",
-       "ANTIHCV", "HEC_DATE", "HCV_GEN", "HCV_GEN_DATE", "HCV_RNA",
-       "HCV_RNA_LIMIT", "HCV_RNA_UNIT", "HCV_RNA_DATE", "HCV_RNA_METH",
-       "SYPH", "HCV_RNA_QUAL", "AGHBE", "AGHBE_DATE", "ANTIHBE", "ANTIHBE_DATE",
-       "ANTIHDV", "ANTIHDV_DATE", "HBVDNA", "HBVDNA_QUAL", "HBVDNA_DATE",
-       "HBVDNA_METH", "HBVDNA_LIMIT", "HBVDNA_UNIT", "IMPORT", "TBI",
-       "TBI_METHOD", "TBI_TESTDATE", "SYPH_METHOD", "VDRL_METHOD")
+          "CD3", "CD3P", "CD4", "CD4P", "CD8", "CD8P", "AGP24_Q", "AGP24",
+          "ICDP24_Q", "ICDP24", "RNA", "WEIGHT", "CELLS_TAKEN", "SERUM_TAKEN",
+          "PLASMA_TAKEN", "DNA_TAKEN", "SAMPLE_DAY", "SAMPLE_TIME", "TBC",
+          "TBC_TSR", "TBC_TESTDATE", "SYPH_Q", "VDRL_Q", "VDRL", "SYPH_DATE",
+          "CMV", "CMV_DATE", "TOXO", "TOXO_DATE", "PHYSICIAN", "STUDY_NURSE",
+          "CENTER", "SOURCE", "STATUS_REC", "FUP_LAB", "COMMENTS", "LAB_A",
+          "RNA_LIMIT", "RNA_METHOD", "AGHBS", "ANTIHBS", "ANTIHBC", "HEB_DATE",
+          "ANTIHCV", "HEC_DATE", "HCV_GEN", "HCV_GEN_DATE", "HCV_RNA",
+          "HCV_RNA_LIMIT", "HCV_RNA_UNIT", "HCV_RNA_DATE", "HCV_RNA_METH",
+          "SYPH", "HCV_RNA_QUAL", "AGHBE", "AGHBE_DATE", "ANTIHBE", "ANTIHBE_DATE",
+          "ANTIHDV", "ANTIHDV_DATE", "HBVDNA", "HBVDNA_QUAL", "HBVDNA_DATE",
+          "HBVDNA_METH", "HBVDNA_LIMIT", "HBVDNA_UNIT", "IMPORT", "TBI",
+          "TBI_METHOD", "TBI_TESTDATE", "SYPH_METHOD", "VDRL_METHOD")
 
   col_types <- select_cols(cols = shcs_cols(),x = cn)
 
