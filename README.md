@@ -6,7 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of readshcs is to …
+The package readshcs provides helper functions to read SHCS datasets
+saved in a local directory.
 
 ## Installation
 
