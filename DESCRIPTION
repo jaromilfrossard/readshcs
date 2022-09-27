@@ -1,0 +1,13 @@
+Package: readshcs
+Type: Package
+Title: Read Data from the Swiss HIV Cohort Study (SHCS)
+Version: 0.1.0
+Author: Jaromil Frossard
+Maintainer: Jaromil Frossard <jaromil.frossard@gmail.com>
+Description: Helper function to read data from local SHCS data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: 
+    R (>= 2.10),
+    readr
+RoxygenNote: 7.2.0
