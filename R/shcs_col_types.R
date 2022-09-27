@@ -274,6 +274,19 @@ shcs_cols <- function(){
       VALUE = col_double(),
       NORM_SUP = col_double(),
       NORM_INF = col_double(),
+      #modif_art
+      MODDATE = col_date(format = ""),
+      ENDDATE = col_date(format = ""),
+      TREATMENT = col_character(),
+      NUM_ART = col_integer(),
+      NUM_NRTI = col_integer(),
+      NUM_NNRTI = col_integer(),
+      NUM_PI = col_integer(),
+      NUM_NTRTI = col_integer(),
+      NUM_FI = col_integer(),
+      NUM_INTI = col_integer(),
+      NUM_OTHERS = col_integer(),
+      HAART = col_integer(),
       #mborn
       M_BORN = col_integer(),
       #obstet event
