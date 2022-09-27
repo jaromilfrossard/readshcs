@@ -228,8 +228,9 @@ read_shcs_lab2 <- function(shcs_dir = get_shcs_dir(), lazy = F,...){
 #' @export
 #' @rdname read_shcs
 read_shcs_modif_art <- function(shcs_dir = get_shcs_dir(), lazy = F,...){
-  cn <- c("ID", "LABDATE", "ITEM", "FASTING", "VALUE", "NORM_SUP", "NORM_INF",
-       "PHYSICIAN", "STUDY_NURSE", "CENTER", "SOURCE", "COMMENTS")
+  cn <- c("ID", "MODDATE", "ENDDATE", "TREATMENT", "NUM_ART", "NUM_NRTI",
+          "NUM_NNRTI", "NUM_PI", "NUM_NTRTI", "NUM_FI", "NUM_INTI", "NUM_OTHERS",
+          "HAART")
 
   col_types <- select_cols(cols = shcs_cols(),x = cn)
 
