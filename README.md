@@ -6,8 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The package readshcs provides helper functions to read SHCS datasets
-saved in a local directory.
+The package readshcs provides helper functions to read datasets of the
+[Swiss HIV Cohort Study](http://www.shcs.ch/) from a local directory.
 
 ## Installation
 
@@ -31,3 +31,7 @@ set_shcs_dir(file.path("path","to","directory"))
 # read dataset with patients information (pat.csv)
 data_pat <- read_shcs_pat()
 ```
+
+# Links
+
+-   SHCS website: <http://www.shcs.ch/>
