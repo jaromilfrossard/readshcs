@@ -30,6 +30,7 @@
 \alias{read_shcs_var_disease}
 \alias{read_shcs_var_lab2}
 \alias{read_shcs_var_nation}
+\alias{read_shcs_var_stopdrug}
 \title{Read datasets from the Swiss HIV Cohort Study}
 \usage{
 read_shcs_admin(shcs_dir = get_shcs_dir(), lazy = F, ...)
@@ -87,6 +88,8 @@ read_shcs_var_disease(shcs_dir = get_shcs_dir(), lazy = F, ...)
 read_shcs_var_lab2(shcs_dir = get_shcs_dir(), lazy = F, ...)
 
 read_shcs_var_nation(shcs_dir = get_shcs_dir(), lazy = F, ...)
+
+read_shcs_var_stopdrug(shcs_dir = get_shcs_dir(), lazy = F, ...)
 }
 \arguments{
 \item{shcs_dir}{chr. Path of the directory containing the SHCS data.}

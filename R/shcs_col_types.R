@@ -412,6 +412,5 @@ shcs_cols <- function(){
       REGION_ID = col_character(),
       AIDS99 = col_integer(),
       FGM = col_integer()
-
     )
 }

@@ -402,3 +402,13 @@ read_shcs_var_nation <- function(shcs_dir = get_shcs_dir(), lazy = F,...){
                     col_types = col_types,lazy = lazy,...)
 }
 
+#' @export
+#' @rdname read_shcs
+read_shcs_var_stopdrug <- function(shcs_dir = get_shcs_dir(), lazy = F,...){
+  cn <- c("STOP_WHY", "VAR_DESC")
+
+  col_types <- select_cols(cols = shcs_cols(),x = cn)
+
+  read_delim(file.path(shcs_dir,"var_stopdrug.csv"),delim = ",",
+             col_types = col_types,lazy = lazy,...)
+}
